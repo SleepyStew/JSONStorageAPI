@@ -1,8 +1,11 @@
+########################################
+# Made By SleepyStew (SleepyStew#7777) #
+########################################
+
 import json, os
 from json.decoder import JSONDecodeError
 from functools import reduce
 
-#Manager
 class jsondb:
     def set(FileName, Key, Object):
         try:
